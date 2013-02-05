@@ -1,0 +1,18 @@
+% Classe do documento
+%\documentclass[a4paper,12pt]{report}
+\documentclass[tc,oneside]{iiufrgs}
+% Números das páginas em algarismos Arabic
+\pagenumbering{arabic}
+% Pacotes e comandos customizados
+\include{config}
+% Início do texto
+\begin{document}
+	\input{capa} 	    % Capa
+	\input{pre/pre.tex} % Elementos Pre-Textuais
+	% Elementros Textuais (Capitulos de desenvolvimento)
+	\input{textual/cap1.tex}
+	\input{textual/cap2.tex}
+	\input{textual/cap3.tex}
+	\input{pos/pos.tex} % Elementos Pos-Textuais
+% Fim do texto
+\end{document}

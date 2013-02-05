@@ -1,0 +1,20 @@
+%------------------------------------------------------------
+% Elementos Pos-Textuais (no padrão UNISC )são compostos de:
+% Referencias 
+% Glossário opcional
+% Apendice  =
+% Anexo     =
+% Índice    =
+%------------------------------------------------------------
+% Glossário
+%\singlespacing Para um espaçamento simples
+%\onehalfspacing Para um espaçamento de 1,5
+%\doublespacing Para um espaçamento duplo
+\singlespacing
+\input{pos/glos.tex}
+%############################################################
+%inclusão das referencias e o formato BibTex(abnt)
+\bibliography{biblio}
+\bibliographystyle{abnt}
+%############################################################
+

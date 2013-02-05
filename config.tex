@@ -1,0 +1,78 @@
+\usepackage[english,brazilian]{babel}
+% Codificação do arquivo
+\usepackage[utf8]{inputenc}
+% Mapear caracteres especiais no PDF
+\usepackage{cmap}
+% Codificação da fonte
+\usepackage[T1]{fontenc}
+% Essencial para colocar funções e outros símbolos matemáticos
+\usepackage{amsmath,amssymb,amsfonts,textcomp}
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{setspace}
+\usepackage{times}
+\usepackage{fancyhdr}
+
+\usepackage{color}
+% usar links coloridos e outras links no doc
+\usepackage[pdftex]{hyperref}
+% deixar link sem cores
+\hypersetup{colorlinks,
+debug=false,
+linkcolor=black, %%% cor do tableofcontents,
+citecolor=black, %%% cor do \cite
+urlcolor=black, %%% cor do \url e \href
+pdftoolbar=true,
+bookmarks=true,
+unicode=true,
+pdftitle={TC2 - Freitas},
+pdfauthor={Luana Lima de Freitas},
+pdfsubject={Sistema Computacional para Tomada de decisões e Gerenciamento da Energia Elétrica em Sistemas Industriais},
+pdfkeywords={EE,QEE,Sistemas Embarcado, Tomada de decisão}
+}
+
+%% Lista de Abreviações
+% Cria lista de abreviações
+\usepackage[notintoc,portuguese]{nomencl}
+\makenomenclature
+
+%############################################################################
+%% Referências bibliográficas e afins
+% Formatar as citações no texto e a lista de referências
+\usepackage{natbib}
+
+% Adicionar bibliografia, índice e conteúdo na Tabela de conteúdo
+% Não inclui lista de tabelas e figuras no índice
+\usepackage[nottoc,notlof,notlot]{tocbibind}
+
+%% Pontuação e unidades
+% Posicionar inteligentemente a vírgula como separador decimal
+\usepackage{icomma}
+
+% Formatar as unidades com as distâncias corretas
+\usepackage[tight]{units}
+
+%
+%############################################################################
+%% Comandos customizados
+% Espécie e abreviação
+\newcommand{\subde}{\emph{Clypeaster subdepressus}}
+\newcommand{\subsus}{\emph{C.~subdepressus}}
+% Dados do Trabalho
+\newcommand{\nomedocurso}{curso de engenharia de computação}
+\newcommand{\nomedoaluno}{Luana Lima de Freitas}
+% Palavras Chaves do Trabalho
+\newcommand{\titulo}{sistema computacional para tomada de decisões e gerenciamento da energia elétrica em sistemas industriais}
+\newcommand{\palavras}{Qualidade da Energia Elétrica, Eficiencia Energetica, Sistemas Embarcado, Tomada de decisão.}
+\newcommand{\wordskey}{Quality Electrical Energy, Energy Efficiency, Embedded System, Decision Making.}
+\newcommand{\capum}{Introdução}
+\newcommand{\capdois}{Qualidade da Energia Elétrica}
+\newcommand{\captres}{Análise de Sinais}
+\newcommand{\capquatro}{Estruturas Computacionais}
+\newcommand{\capcinco}{Metodologia}
+\newcommand{\capsex}{Resultados}
+%############################################################################
+%% Pacotes não implementados
+% Para não sobrar espaços em branco estranhos
+\widowpenalty=1000
+\clubpenalty=1000
+%############################################################################
