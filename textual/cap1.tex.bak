@@ -4,7 +4,7 @@
 %O comando \setcounter, associado ao que queremos alterar, permite essa alteração de uma forma muito simples. Introduzimos no local onde queremos alterar a página o seguinte comando: \setcounter{page}{3}. O que significa que pomos o contador da página no número 3.
 \setcounter{page}{9}
 \chapter{\capum}\label{intro}
-\par
+\paragraph{•}
 Mobilizar a sociedade para o uso eficiente da energia elétrica, combatendo o seu desperdício é a missão estratégica do PROCEL (Programa Nacional de Conservação de Energia Elétrica). A economia de energia elétrica proporciona inúmeras vantagens, entre elas a liberação de recursos para outras áreas e a contribuição para a preservação do meio ambiente \cite{ELE10}.
 \par
 Os fatores que influenciam na Qualidade da Energia Elétrica (QEE) podem ser originados tanto nas concessionárias como nos sistemas consumidores \cite{MEL08}. Estes distúrbios podem ser gerados por fenômenos naturais, por operações da concessionária ou pelos próprios consumidores. Da mesma forma que uma maior demanda em horário de ponta causa perturbações e desequilíbrio na rede, além de penalizações por parte da ANEEL (Agência Nacional de Energia Elétrica) caso o consumo ultrapasse o limite contratado. 

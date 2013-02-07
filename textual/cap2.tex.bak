@@ -59,7 +59,7 @@ A qualidade do produto avalia a conformidade de tensão em regime permanente e a
 \par 
 Na literatura encontram-se diversificadas nomenclaturas objetivando a conceituação dos fenômenos descritos nos próximas capítulos, os termos distúrbios e perturbações são os mais difundidos nesses casos. 
 \par 
-Conforme explicado por /cite{FER99}, a ocorrência de distúrbios eletromagnéticos está relacionada a uma série de fatores identificados da operação normal de determinadas cargas ou dispositivos em um sistema elétrico, ou da ocorrência de fenômenos naturais que afetam o sistema elétrico.
+Conforme explicado por \cite{FER99}, a ocorrência de distúrbios eletromagnéticos está relacionada a uma série de fatores identificados da operação normal de determinadas cargas ou dispositivos em um sistema elétrico, ou da ocorrência de fenômenos naturais que afetam o sistema elétrico.
 \par 
 Segundo \cite{JUN09}, os distúrbios que afetam a QEE podem ser originados tanto nos sistemas quanto nos equipamentos das concessionárias, ou ainda em última milha nos equipamentos dos consumidores. No entanto, as causas destes distúrbios em grande parte não estão no controle das concessionárias, pelo fato que se tratam de fenômenos gerados por causas aleatórias  (atividades de construção, acidentes e falhas no sistema elétrico), fenômenos naturais (relâmpagos, ventos, gelo, etc.) e as operações cotidianas da concessionária (chaveamentos, operações com banco de capacitores e manutenção) que pode gerar distúrbios para o sistema.
 \par 
@@ -75,7 +75,6 @@ A Figura \ref{fig:tiposperturbações}, demonstra uma onda inicialmente sem pert
 \label{fig:tiposperturbações}
 \end{center}
 \end{figure}
-
 \par Distúrbios a e b
 \begin{itemize}
 \item a(1) Transitórios impulsivos
@@ -86,7 +85,6 @@ A Figura \ref{fig:tiposperturbações}, demonstra uma onda inicialmente sem pert
 \item b(4) Harmônicos 
 \item b(5) Cortes
 \end{itemize}
-
 \subsection{Transitórios}
 \par 
 Fenômenos transitórios ocorrem no sistema elétrico em função de diversas condições. Muitos transitórios são decorrentes de variações instantâneas na corrente, as quais interagem com a impedância do sistema, resultando em elevadas tensões instantâneas.
@@ -185,7 +183,7 @@ De acordo com \cite{DUG96}, os ruídos são basicamente uma distorção indeseja
 \par
 A amplitude típica é menor que 1\% da tensão fundamental, e os mesmos podem causar distúrbios em equipamentos eletrônicos, tais como microcomputadores e controladores programáveis. O problema pode ser minimizado utilizando-se filtros, transformadores isoladores e alguns condicionadores de linha.
 \par
-A presença de tensão ou corrente CC em um sistema elétrico com corrente alternada (CA) é denominado “DC offset”. Este fenômeno pode ocorrer como resultado da operação ideal de retificadores de meia-onda \cite{OLIVE}.
+A presença de tensão ou corrente CC em um sistema elétrico com corrente alternada (CA) é denominado \emph{DC offset}. Este fenômeno pode ocorrer como resultado da operação ideal de retificadores de meia-onda \cite{OLIVE}.
 \par
 O nível CC em redes de corrente alternada pode levar à saturação de transformadores, resultando em perdas adicionais e redução da vida útil. Pode também causar corrosão eletrolítica dos eletrodos de aterramento e de outros conectores \cite{DEL03}.
 \subsubsection{Flutuações ou Oscilações de Tensão}
@@ -193,7 +191,7 @@ O nível CC em redes de corrente alternada pode levar à saturação de transfor
 No trabalho de \cite{DEL03} existe uma rápida explicação sobre as principais ocorrências sobre o assunto. As flutuações de tensão correspondem a variações sistemáticas dos valores eficazes da tensão de suprimento dentro da faixa compreendida entre 0,95 e 1,05 pu. Tais flutuações são geralmente causadas por cargas industriais e manifestam-se de diferentes formas.
 \par
 A principal fonte das Flutuações Aleatórias são os fornos a arco, onde as amplitudes das oscilações dependem do estado de fusão do material, bem como do nível de curto-circuito da instalação.
-\textbf{Flutuações Repetitivas}
+\par\textbf{Flutuações Repetitivas}
 \par Dentre as principais fontes geradoras de flutuações desta natureza tem-se: Máquinas de solda, Elevadores de minas, Ferrovias.
 \par\textbf{Flutuações Esporádicas}
 \par A principal fonte causadora destas oscilações é a partida direta de grandes motores. Os principais efeitos nos sistemas elétricos, resultados das oscilações causadas pelos equipamentos mencionados anteriormente são:
@@ -236,13 +234,14 @@ Na Tabela \ref{fig:tabpdistele} estão dispostos os tipos de distúrbios elétri
 \label{fig:tabpdistele}
 \end{center}
 \end{table}
-\subsection{Quantificação de QEE (Causas, Origens e Efeitos)}
+\section{Quantificação de QEE (Causas, Origens e Efeitos)}
 \par
 De acordo com \cite{ALV10}, distúrbios de energia elétrica ocorrem desde o inicio da concepção de sistemas elétricos de potência, e com o transcorrer dos anos desde o Séc. XIX, as cargas cada vez mais adquiriram sensibilidade a esses distúrbios e em consequentemente surgiu à necessidade de que a energia elétrica possuísse maior qualidade.
 \par
-As cargas sensíveis, como equipamentos eletrônicos, os microprocessados, Acionamentos a Velocidade Variável (AVVs), Controladores Lógicos Programáveis (CLPs), dentre outros são cada vez mais numerosas nos setores: industrial, comercial e residencial e, o nível de QEE requerido tem aumentado muito nos últimos anos. De forma que a energia passou a ser vista como um produto e não mais como um serviço, e como todo produto, passa a ser analisado pela sua qualidade e preço.
+As cargas sensíveis, como equipamentos eletrônicos, os microprocessados, Acionamentos a Velocidade Variável (AVVs), Controladores Lógicos Programáveis (CLPs), dentre outros são cada vez mais numerosas nos setores: industrial, comercial e residencial e, o nível de QEE requerido tem aumentado muito nos últimos anos. 
+\par De forma que a energia passou a ser vista como um produto e não mais como um serviço, e como todo produto, passa a ser analisado pela sua qualidade e preço. Muitos consumidores não sabem a que tipo de distúrbios da QEE estão sendo expostos, basicamente por dois grandes motivos, pelo fato que os estudos e o trabalho de conscientização a população a respeito dos problemas de QEE são recentes. 
 \par
-Muitos consumidores não sabem a que tipo de distúrbios da QEE estão sendo expostos, basicamente por dois grandes motivos, pelo fato que os estudos e o trabalho de conscientização a população a respeito dos problemas de QEE são recentes. De forma utópica o equilíbrio esperado entre as expectativas dos consumidores e as limitações das concessionárias, seria que estas poderiam informar sobre a QEE entregue, e conhecer as expectativas dos consumidores ligadas aos prejuízos causados pelos distúrbios da QEE.
+De forma utópica o equilíbrio esperado entre as expectativas dos consumidores e as limitações das concessionárias, seria que estas poderiam informar sobre a QEE entregue, e conhecer as expectativas dos consumidores ligadas aos prejuízos causados pelos distúrbios da QEE.
 \par
 No entanto não é desta forma que a relação entre concessionárias e consumidores acontece, e os resultados ficam explícitos em prejuízos associados à QEE, dentre as diversas perturbações elétricas causadores de problemas de QEE, destacam-se os afundamentos de tensão e os harmônicos. As tabelas \ref{fig:tabpertcons} e \ref{fig:tabperdas} ilustram esta afirmação.
 % tabela 2
@@ -250,8 +249,7 @@ No entanto não é desta forma que a relação entre concessionárias e consumid
 \begin{center}
 \caption{Perturbações mais Comuns: Causas e Equipamentos Afetados}
 \includegraphics[width=12cm]{imagens/tab2-cap2.png}
-\par{\small Fonte: Ribeiro, P., Workshop on Power Quality, II SBQEE, nov. 1997, citado por 
-\cite{ALV10}.}
+\par{\small Fonte: Ribeiro, P., Workshop on Power Quality, II SBQEE, nov. 1997, citado por \cite{ALV10}.}
 \label{fig:tabpertcons}
 \end{center}
 \end{table}
@@ -266,7 +264,6 @@ Também segundo \cite{ALV10}, afundamento de tensão é a perturbação número 
 \label{fig:tabperdas}
 \end{center}
 \end{table}
-
 \par
 É economicamente inviável eliminar todas as faltas do sistema elétrico, para não haver afundamentos de tensão, e em contra partida não é eficaz reduzir o número de afundamentos se o custo por essa ação for maior do que o prejuízo causado pelos mesmos.
 Às vezes, existem soluções simples a serem aplicadas como mudanças nas especificações dos equipamentos para gerar uma redução significativa no número de interrupções de equipamentos e/ou processos.

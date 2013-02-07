@@ -72,8 +72,6 @@ In this context, this paper has as main objective the implementation of a method
 \selectlanguage{brazilian}
 \newpage
 
-% Desabilitar protrusão para listas e índice
-\microtypesetup{protrusion=false}
 
 % Lista de figuras
 \listoffigures
@@ -88,6 +86,3 @@ In this context, this paper has as main objective the implementation of a method
 
 % Índice
 \tableofcontents
-
-% Re-habilita protrusão novamente
-\microtypesetup{protrusion=true}
