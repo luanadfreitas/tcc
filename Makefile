@@ -2,7 +2,7 @@ FILE = TC2
 
 all :
 	pdflatex $(FILE).tex
-	makeindex $(FILE).nlo -s nomencl.ist -o $(FILE).nls
+	#makeindex $(FILE).nlo -s nomencl.ist -o $(FILE).nls
 	bibtex $(FILE).aux
 	pdflatex $(FILE).tex
 	pdflatex $(FILE).tex

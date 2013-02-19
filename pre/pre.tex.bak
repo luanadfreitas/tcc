@@ -22,7 +22,7 @@
 \doublespacing
 \noindent{\LARGE\textbf{Agradecimentos}}
 \par
-Agradeço ao meu orientador, ao meu co-orientador, aos meus colaboradores, aos técnicos, à seção administrativa, à fundação que liberou verba para minhas pesquisas, aos meus amigos, à minha família e ao meu grande amor.
+bla bla bla
 \newpage
 \vspace*{10pt}
 
@@ -72,17 +72,55 @@ In this context, this paper has as main objective the implementation of a method
 \selectlanguage{brazilian}
 \newpage
 
-
 % Lista de figuras
 \listoffigures
 
 % Lista de tabelas
 \listoftables
 
-% Abreviações
-% Para imprimir as abreviações siga as instruções em 
-% http://code.google.com/p/mestre-em-latex/wiki/ListaDeAbreviaturas
-\printnomenclature
+% Abreviações e Siglas
+\chapter*{ {\Large {Lista de Abreviaturas e Siglas}}}
+\begin{acronym}
+\singlespacing
+\acro{ANEEL}{Agência Nacional de Energia Elétrica}
+\acro{AVVs}{	Acionamentos a velocidade variável}
+\acro{CA}{Corrente Alternada}
+\acro{CC}{Corrente Contínua ou Nível de Corrente Contínua}
+\acro{CLPs}{Controladores lógicos programáveis}
+\acro{EE}{Eficiência Energética}
+\acro{DEC}{Duração equivalente de interrupção por unidade consumidora}
+\acro{DIC}{Duração de interrupção individual por unidade consumidora}
+\acro{DMIC}{Duração máxima de interrupção contínua por unidade consumidora ou ponto de conexão}
+\acro{DRC}{O valor da Duração Relativa da Transgressão Máxima de Tensão Crítica}
+\acro{DRP}{O valor da Duração Relativa da Transgressão Máxima de Tensão Precária}
+\acro{DSP}{Processamento Digital de Sinais}
+\acro{DTFS}{Série de Fourier de Tempo Discreto}
+\acro{DTFT}{Transformada de Fourier de Tempo Discreto}
+\acro{FEC}{Frequência equivalente de interrupção por unidade consumidora}
+\acro{FIC}{Frequência de interrupção individual por unidade consumidora}
+\acro{FS	}{Série de Fourier}
+\acro{IEEE}{Institute Electrical and Electronics Engineers}
+\acro{INEE}{Instituto Nacional de Eficiência Energética}
+\acro{LAN}{Local Area Network}
+\acro{PEE}{Programa de Eficiência Energética}
+\acro{PROCEL	}{Programa Nacional de Conservação de Energia Elétrica}
+\acro{PRODIST}{Procedimentos de Distribuição de Energia Elétrica no Sistema Elétrico Nacional}
+\acro{QEE}{Qualidade de Energia Elétrica}
+\acro{RNAs}{Redes Neurais Artificiais}
+\acro{RMS}{Root Mean Square}
+\acro{SC	}{Sistemas Centralizados}
+\acro{SD	}{Sistemas Distribuídos}
+\acro{SE	}{Sistemas Embarcados}
+\acro{STFT}{Transformada de Fourier de Tempo Curto}
+\acro{TCP/IP	}{Transmission Control Protocol/Internet Protocol}
+\acro{TF}{Transformada de Fourier}
+\acro{TW}{Transformada Wavelet}
+\acro{UDP}{User Datagram Protocol}
+\acro{}{}
+\acro{}{}
+\end{acronym}
+
+\newpage
 
 % Índice
 \tableofcontents
