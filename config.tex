@@ -11,11 +11,18 @@
 \usepackage{setspace}
 \usepackage{times}
 \usepackage{fancyhdr}
-\setcounter{secnumdepth}{2}
+\setcounter{secnumdepth}{3}
 
 % para gerar lista de abreveaturas 
 % link http://comments.gmane.org/gmane.comp.tex.brazilian/2162
+% uso: \acro{sigla}{descrição} cria um acrônimo e imprime ele num
+%ambiente \begin{acronym}
+%      \acrodef{sigla}{descrição} cria um acrônimo mas não imprime ele
+%      \acf{sigla} escreve a por extenso e depois a (sigla)
+%      \acl{sigla} escreve a por extenso
+%      \ac{sigla} coloca a descrição da sigla se for sua primeira aparição
 \usepackage{acronym}
+
 
 \usepackage{color}
 % usar links coloridos e outras links no doc
@@ -34,6 +41,9 @@ pdfauthor={Luana Lima de Freitas},
 pdfsubject={Sistema Computacional para Tomada de Decisões e Gerenciamento da Energia Elétrica em Sistemas Industriais},
 pdfkeywords={EE,QEE,Sistemas Embarcado, Tomada de decisão}
 }
+
+% para uso do todonotes
+\usepackage[colorinlistoftodos]{todonotes}
 
 %############################################################################
 %% Referências bibliográficas e afins

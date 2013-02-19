@@ -103,23 +103,25 @@ In this context, this paper has as main objective the implementation of a method
 \acro{INEE}{Instituto Nacional de Eficiência Energética}
 \acro{LAN}{Local Area Network}
 \acro{PEE}{Programa de Eficiência Energética}
-\acro{PROCEL	}{Programa Nacional de Conservação de Energia Elétrica}
+\acro{PROCEL}{Programa Nacional de Conservação de Energia Elétrica}
 \acro{PRODIST}{Procedimentos de Distribuição de Energia Elétrica no Sistema Elétrico Nacional}
+\acro{uM}{Microprocessadores}
 \acro{QEE}{Qualidade de Energia Elétrica}
 \acro{RNAs}{Redes Neurais Artificiais}
 \acro{RMS}{Root Mean Square}
 \acro{SC	}{Sistemas Centralizados}
 \acro{SD	}{Sistemas Distribuídos}
 \acro{SE	}{Sistemas Embarcados}
-\acro{STFT}{Transformada de Fourier de Tempo Curto}
-\acro{TCP/IP	}{Transmission Control Protocol/Internet Protocol}
+\acro{SEP}{Sistemas Elétricos de Potência}
+\acro{SI}{Sistema Internaconal de Unidades}
+\acro{STFT}{Short Time Fourier Transform}
+\acro{TCP/IP}{Transmission Control Protocol/Internet Protocol}
 \acro{TF}{Transformada de Fourier}
 \acro{TW}{Transformada Wavelet}
 \acro{UDP}{User Datagram Protocol}
 \acro{}{}
 \acro{}{}
 \end{acronym}
-
 \newpage
 
 % Índice

@@ -4,25 +4,25 @@
 %O comando \setcounter, associado ao que queremos alterar, permite essa alteração de uma forma muito simples. Introduzimos no local onde queremos alterar a página o seguinte comando: \setcounter{page}{3}. O que significa que pomos o contador da página no número 3.
 \setcounter{page}{9}
 \chapter{\capum}\label{intro}
-\paragraph{•}
-Mobilizar a sociedade para o uso eficiente da energia elétrica, combatendo o seu desperdício é a missão estratégica do PROCEL (Programa Nacional de Conservação de Energia Elétrica). A economia de energia elétrica proporciona inúmeras vantagens, entre elas a liberação de recursos para outras áreas e a contribuição para a preservação do meio ambiente \cite{ELE10}.
 \par
-Os fatores que influenciam na Qualidade da Energia Elétrica (QEE) podem ser originados tanto nas concessionárias como nos sistemas consumidores \cite{MEL08}. Estes distúrbios podem ser gerados por fenômenos naturais, por operações da concessionária ou pelos próprios consumidores. Da mesma forma que uma maior demanda em horário de ponta causa perturbações e desequilíbrio na rede, além de penalizações por parte da ANEEL (Agência Nacional de Energia Elétrica) caso o consumo ultrapasse o limite contratado. 
+Mobilizar a sociedade para o uso eficiente da energia elétrica, combatendo o seu desperdício é a missão estratégica do \ac{PROCEL}. A economia de energia elétrica proporciona inúmeras vantagens, entre elas a liberação de recursos para outras áreas e a contribuição para a preservação do meio ambiente \cite{ELE10}.
 \par
-Contextualizando a QEE no cenário industrial, torna-se importante que as indústrias tenham um gerenciamento eficaz das demandas energéticas consumidas diariamente, evitando tanto o desperdício de energia quanto a diminuição da qualidade da mesma. Tendo em vista que a QEE pode chegar ao consumidor com um excelente padrão de qualidade, o mau gerenciamento, ou até mesmo problemas decorrentes da própria infraestrutura da empresa, podem implicar na diminuição da qualidade da energia consumida no processo industrial. 
+Os fatores que influenciam na \ac{QEE} podem ser originados tanto nas concessionárias como nos sistemas consumidores \cite{MEL08}. Estes distúrbios podem ser gerados por fenômenos naturais, por operações da concessionária ou pelos próprios consumidores. Da mesma forma que uma maior demanda em horário de ponta causa perturbações e desequilíbrio na rede, além de penalizações por parte da \ac{ANEEL} caso o consumo ultrapasse o limite contratado. 
+\par
+Contextualizando a \acl{QEE} no cenário industrial, torna-se importante que as indústrias tenham um gerenciamento eficaz das demandas energéticas consumidas diariamente, evitando tanto o desperdício de energia quanto a diminuição da qualidade da mesma. Tendo em vista que a QEE pode chegar ao consumidor com um excelente padrão de qualidade, o mau gerenciamento, ou até mesmo problemas decorrentes da própria infraestrutura da empresa, podem implicar na diminuição da qualidade da energia consumida no processo industrial. 
 \par
 Conforme \cite{SIL09} e \cite{SOL04}, as indústrias são peças importantes no contexto estudado, devido ao grande consumo de energia elétrica necessário em seus processos de produção. Em função disto, \cite{SOL04} define como pontos relevantes para a pesquisa dentro desta área:
 %% Itens em topicos
 \begin{itemize}
-	\item Conscientização para Eficiência Energética (EE);
+	\item Conscientização para \ac{EE};
 	\item Gestão energética eficaz;
 	\item Política de uso de tecnologias energeticamente eficientes;
 	\item Monitoração da qualidade da energia consumida.
 \end{itemize}
 \par
-Com isso, justifica-se o estudo e desenvolvimento de um sistema que implementa uma metodologia de gerenciamento de energia elétrica que atenda aos requisitos propostos, servindo de apoio à tomada de decisão e controle, além de uma solução eficiente em termos de EE para o setor industrial \cite{GAR09}.
+Com isso, justifica-se o estudo e desenvolvimento de um sistema que implementa uma metodologia de gerenciamento de energia elétrica que atenda aos requisitos propostos, servindo de apoio à tomada de decisão e controle, além de uma solução eficiente em termos de \ac{EE} para o setor industrial \cite{GAR09}.
 \par
-Este trabalho além de focar no desenvolvimento de um sistema que proporcione o gerenciamento da energia elétrica, também oferece a tomada de decisão não sendo somente uma ferramenta de apoio, mas sim um controle inerente de operadores e avaliadores. A linha de simulação desde trabalho deve proporcionar aos usuários a realização de perguntas when-if, buscando apontar outros comportamentos do sistema elétrico dadas situações especificas.
+Este trabalho além de focar no desenvolvimento de um sistema que proporcione o gerenciamento da energia elétrica, também oferece a tomada de decisão não sendo somente uma ferramenta de apoio, mas sim um controle inerente de operadores e avaliadores. A linha de simulação desde trabalho deve proporcionar aos usuários a realização de perguntas \emph{when-if}, buscando apontar outros comportamentos do sistema elétrico dadas situações especificas.
 \par
 O objetivo principal deste trabalho é o desenvolvimento de um sistema de tomada de decisão e gerenciamento da energia elétrica, aplicado a sistemas industriais. Os objetivos específicos para direcionamento do trabalho proposto seguem listados abaixo:
 %% Itens em topicos
@@ -30,10 +30,10 @@ O objetivo principal deste trabalho é o desenvolvimento de um sistema de tomada
 	\item Realizar estudo aprofundado sobre parâmetros QEE, distúrbios eletromagnéticos e dos métodos utilizados na identificação dos mesmos;
 	\item Realizar a modelagem matemática e simulação do sistema;
 	\item Estudar e implementar  um modelo de comunicação para o sistema;
-	\item Desenvolver os algoritmos ligados à tomada de decisão e software de gerenciamento de QEE;
-	\item Implementar a tomada de decisão e software de gerenciamento no sistema.
+	\item Desenvolver os algoritmos ligados à tomada de decisão e \textit{software} de gerenciamento de \ac{QEE};
+	\item Implementar a tomada de decisão e \textit{software} de gerenciamento no sistema.
 \end{itemize}
 \par
-\color{red}Reefazer.
-O presente trabalho encontra-se dividido em três capítulos. O capítulo 2 contém o referencial teórico desde trabalho e aborda a Qualidade da Energia Elétrica em sua conceituação, normalização e índices, juntamente com os distúrbios eletromagnéticos causadores e motivadores deste controle de qualidade. Em seguida, neste mesmo capítulo, trata-se da análise de sinais, considerando três ferramentas de trabalho, e são abordados os conceitos gerais que serão a base computacional para construção do sistema proposto. No capitulo 3 consta a explanação da metodologia proposta e seu respectivo cronograma.
-\color{black}
+\todo[color=red]{Descrever novamente a introdução aos contéudos dos seguintes capítulos}%
+O presente trabalho encontra-se dividido em três capítulos, o capítulo 2 contém o referencial teórico desde trabalho e aborda a \acl{QEE} em sua conceituação, normalização e índices, juntamente com os distúrbios eletromagnéticos causadores e motivadores deste controle de qualidade. 
+Em seguida, neste mesmo capítulo, trata-se da análise de sinais, considerando três ferramentas de trabalho, e são abordados os conceitos gerais que serão a base computacional para construção do sistema proposto. No capitulo 3 consta a explanação da metodologia proposta e seu respectivo cronograma.
