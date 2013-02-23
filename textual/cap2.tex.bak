@@ -4,17 +4,17 @@
 
 \section{QEE e EE}\label{qeeEE}
 \par 
-A \ac{QEE} é bem difundida e recebe diferentes definições que se justificam pelas diversificadas referências, pois concessionárias, consumidores e fabricantes de equipamentos têm diferentes pontos de vista em relação às definições deste termo \cite{FER99}.
+A \ac{QEE} é bem difundida e recebe diferentes definições que se justificam pelas diversificadas referências, pois concessionárias, consumidores e fabricantes de equipamentos têm diferentes pontos de vista em relação às definições deste termo \citep{FER99}.
 \par 
 Em \cite{DUG96} a qualidade da energia é definida como qualquer problema manifestado na tensão, corrente ou desvio de frequência, que resulte em falha ou má operação dos equipamentos dos consumidores. Segundo \cite{FER99}, \ac{QEE} pode ser definida como a ausência relativa de variações de tensão provocadas pelo sistema da concessionária, particularmente a ausência de desligamentos, flutuações de tensão, transitórios e harmônicos medidos no ponto de entrega de energia. Esta é uma definição vista sob o enfoque da identificação de qual é o nível de qualidade da energia fornecida pela concessionária.
 \par
-Do ponto de vista do consumidor, a \ac{QEE} pode ser definida como sendo a ausência de variações manifestadas na tensão, corrente ou frequência que resultem em falhas ou má operação de seus equipamentos \cite{DUG96}.
+Do ponto de vista do consumidor, a \ac{QEE} pode ser definida como sendo a ausência de variações manifestadas na tensão, corrente ou frequência que resultem em falhas ou má operação de seus equipamentos \citep{DUG96}.
 Segundo \cite{SBQEE}, citado por \cite{FER99}, uma abordagem acadêmica para \ac{QEE}, sendo a disponibilidade da energia elétrica, com forma de onda senoidal e pura, sem alterações na amplitude, emanando de uma fonte de potência infinita. 
 \par 
 % paragrafo de ligação dos conceitos de EE e QEE
 A \acl{EE} está diretamente ligada a \ac{QEE}, segundo \cite{INE12}, o \ac{INEE}, determina que para constatar se a \ac{EE} é ou não obtida por uma ação, é preciso medir os resultados relacionados com a redução de consumo de energia e com os ganhos associados. Para se garantir que os resultados obtidos se mantenham ao longo do prazo contratual, é preciso verificar, por meio de monitoramento contínuo ou não, os seus valores.
 \par
-A \ac{ANEEL} possui um plano de ação voltado a \ac{EE}, nomeado de \ac{PEE}. Este plano é voltado para as empresas de distribuição de energia elétrica, mas também se aplicam neste trabalho no enfoque do melhoramento da eficiência energética ocasionada pelo emprego do sistema proposto. Para mais informações sobre o \ac{INEE} e \ac{PEE} podem ser consultadas respectivamente nas referências \cite{INE12} e \cite{ANEE3}.
+A \ac{ANEEL} possui um plano de ação voltado a \ac{EE}, nomeado de \ac{PEE}. Este plano é voltado para as empresas de distribuição de energia elétrica, mas também se aplicam neste trabalho no enfoque do melhoramento da eficiência energética ocasionada pelo emprego do sistema proposto. Para mais informações sobre o \ac{INEE} e \ac{PEE} podem ser consultadas respectivamente nas referências \citep{INE12} e \citep{ANEE3}.
 
 \section{Normas Brasileiras}\label{qeeNormas}
 \todo[inline,size=\small,color=red]{Correção nº11 do Prof JJ, acrescentar ref para EN E I3E}
@@ -22,7 +22,7 @@ A \ac{ANEEL} possui um plano de ação voltado a \ac{EE}, nomeado de \ac{PEE}. E
 No trabalho de \cite{JUN09}, é distinto que a padronização da \ac{QEE} ainda se encontra em um estágio de desenvolvimento. A Europa é uma das regiões mais avançadas em relação à normalização da \ac{QEE}, onde está vigente a EN50160. Já nos Estados Unidos, grande parte das concessionárias tem utilizado diversas normas como referência, como a IEEE519. Entretanto, devido à desregulamentação existente, em contratos futuros à inclusão de cláusulas sobre a QEE devem se tornar padrões.
 No cenário nacional, a QEE é monitorada pelas próprias concessionárias de energia elétrica, por meio de indicadores, que quantificam alguns distúrbios da QEE fornecida. Tais indicadores são definidos através das portarias e resoluções publicadas por órgãos reguladores, estabelecendo metas, ações e prazos a serem cumpridos pelas concessionárias a cada ano.
 \par
-A ANEEL, autarquia em regime especial vinculada ao Ministério de Minas e Energia, foi criada para regular o setor elétrico brasileiro, por meio da \emph{Lei nº 9.427/1996 e do Decreto nº 2.335/1997}. A \ac{ANEEL} iniciou suas atividades em dezembro de 1997, tendo como principais atribuições \cite{ANEEL}:
+A ANEEL, autarquia em regime especial vinculada ao Ministério de Minas e Energia, foi criada para regular o setor elétrico brasileiro, por meio da \emph{Lei nº 9.427/1996 e do Decreto nº 2.335/1997}. A \ac{ANEEL} iniciou suas atividades em dezembro de 1997, tendo como principais atribuições \citep{ANEEL}:
 %% Itens em topicos
 \begin{itemize}
 \item Regular a produção, transmissão, distribuição e comercialização de energia elétrica;
@@ -54,9 +54,10 @@ As distribuidoras de energia são avaliadas em diversos aspectos no fornecimento
 \par
 O \ac{DEC} exprime o espaço de tempo em que, em média, cada consumidor do conjunto considerado ficou privado do fornecimento de energia elétrica, o \ac{FEC} representa o número de interrupções que, em média, cada consumidor do conjunto considerado foi atingido durante um determinado intervalo de tempo. \ac{DIC} expressa o intervalo de tempo que, no período de apuração, em cada unidade consumidora ou ponto de conexão ocorreu descontinuidade da distribuição de energia elétrica, o \ac{FIC} representa número de interrupções ocorridas, no período de apuração, em cada unidade consumidora ou ponto de conexão e o \ac{DMIC} é o tempo máximo de interrupção contínua de energia elétrica, em uma unidade consumidora ou ponto de conexão.
 \par 
-A qualidade do produto avalia a conformidade de tensão em regime permanente e as perturbações na forma de onda de tensão. Destacam-se, neste quesito, os indicadores coletivos \ac{DRP} e \ac{DRC}, obtidos a partir da campanha de medição amostral instituída pela \ac{ANEEL} dentro da respectiva área de concessão \cite{ANEE2}.
+A qualidade do produto avalia a conformidade de tensão em regime permanente e as perturbações na forma de onda de tensão. Destacam-se, neste quesito, os indicadores coletivos \ac{DRP} e \ac{DRC}, obtidos a partir da campanha de medição amostral instituída pela \ac{ANEEL} dentro da respectiva área de concessão \citep{ANEE2}.
 
 \section{Distúrbios Elétromagneticos}\label{qeeDis}
+\todo[inline,size=\small,color=blue!60]{Nota de rodapé indicando a existencia de um glossário para termos técnicos da Elétrica}
 \par 
 Na literatura encontram-se diversificadas nomenclaturas objetivando a conceituação dos fenômenos descritos nos próximas capítulos, os termos distúrbios e perturbações são os mais difundidos nesses casos. 
 \par 
@@ -64,7 +65,10 @@ Conforme explicado por \cite{FER99}, a ocorrência de distúrbios eletromagnéti
 \par 
 Segundo \cite{JUN09}, os distúrbios que afetam a \ac{QEE} podem ser originados tanto nos sistemas quanto nos equipamentos das concessionárias, ou ainda em última milha nos equipamentos dos consumidores. No entanto, as causas destes distúrbios em grande parte não estão no controle das concessionárias, pelo fato que se tratam de fenômenos gerados por \emph{causas aleatórias} (atividades de construção, acidentes e falhas no sistema elétrico), \emph{fenômenos naturais} (relâmpagos, ventos, gelo, etc.) e as \emph{operações cotidianas da concessionária} (chaveamentos, operações com banco de capacitores e manutenção) que pode gerar distúrbios para o sistema.
 \par 
-A Figura \ref{fig:tiposperturbações}, demonstra uma onda inicialmente sem perturbações, e a mesma com a aplicação de alguns dos mais ocorrentes distúrbios elétricos de tensão, tais distúrbios são explanados brevemente nesta seção \ref{qeeDIS}, onde destaca-se principalmente os Transitórios oscilatórios de baixa frequência, as \ac{VTCDs} e as distorções na forma de onda.
+A Figura \ref{fig:tiposperturbações}, demonstra uma onda inicialmente sem perturbações, e a mesma com a aplicação de alguns dos mais ocorrentes distúrbios elétricos de tensão, tais distúrbios são explanados brevemente nesta seção \ref{qeeDIS}, onde destaca-se principalmente os \emph{\ac{LFOT}}, as \emph{\ac{VTCDs}} e as \emph{Distorções na forma de onda}.
+\par
+Nas proxímas secções serão utilizados termos específicos sobre \emph{sistemas elétricos} e \emph{componentes elétricos}, para o esclarecimento desses termos, os mesmos estão dispostos no Glossário \footnote{Consulte \ref{gloss}.}.
+\todo[inline,size=\small,color=blue!60]{Indicando o estudo direcionado para o que \cite{BAC11} trabalhou}
 % Figura tipos de perturbações
 \begin{figure}[hbt]
 \begin{center}
@@ -93,7 +97,7 @@ Fenômenos transitórios ocorrem no sistema elétrico em função de diversas co
 \par 
 Em \cite{IEE95}, citado por \cite{DEL03}, transitórios podem ser consequência de cargas com operação intermitente, chaveamento de bancos de capacitores, faltas a terra, operação de dispositivos de semicondutores e falhas em condutores. Descargas atmosféricas são um caso especial de transitórios, devido aos níveis extremamente altos de energia e rápido tempo envolvido.
 \par 
-A duração de um transitório é pequena, porém de grande importância, uma vez que os equipamentos presentes nos sistemas elétricos estarão submetidos a grandes solicitações de tensão e/ou corrente. Fenômenos transitórios podem ser classificados em dois grupos: os chamados transitórios impulsivos e os oscilatórios, causados por descargas atmosféricas e por chaveamentos respectivamente \cite{DEL03}
+A duração de um transitório é pequena, porém de grande importância, uma vez que os equipamentos presentes nos sistemas elétricos estarão submetidos a grandes solicitações de tensão e/ou corrente. Fenômenos transitórios podem ser classificados em dois grupos: os chamados transitórios impulsivos e os oscilatórios, causados por descargas atmosféricas e por chaveamentos respectivamente \citep{DEL03}
 
 %Transitórios oscilatórios de baixa frequência
 \par
@@ -103,7 +107,7 @@ De acordo com \cite{JUN09}, citado por \cite{BAC11}, os transitórios são fenô
 \subsection{Variações de tensão}\label{qeeVarTens}
 \todo[inline,size=\small,color=yellow]{Antigas subsecitons variações de curta e longa tensão unidas em \ref{qeeVarTens}}%
 \par
-As variações de tensão de longa duração podem ser caracterizadas como desvios que ocorrem no valor eficaz da tensão, na frequência do sistema, com duração maior que 1 minuto \cite{DUG96}.
+As variações de tensão de longa duração podem ser caracterizadas como desvios que ocorrem no valor eficaz da tensão, na frequência do sistema, com duração maior que 1 minuto \citep{DUG96}.
 \par 
 Em \cite{DEL03}, estas variações acontecem como subtensões, sobretensões ou interrupções sustentadas, ambas são geralmente causadas por variações de carga e operações de chaveamento no sistema.
 \par 
@@ -116,7 +120,7 @@ Dependendo do local da falta e das condições do sistema, a falta pode causar t
 \par 
 As variações de tensão de curta duração são fenômenos que apresentam duração entre 0,5 ciclo até 1 minuto e podem ser caracterizadas por alterações instantâneas, momentâneas ou temporárias \cite{JUN09}. Tais alterações geralmente são ocasionadas por curtos circuitos no sistema elétrico e chaveamento de grandes cargas, demandam altas correntes ou perdas intermitentes da conexão com a rede. 
 \par 
-Tais eventos descritos, geram instabilidade ao sistema causando transtornos ao processo de produção por distorcer a forma de onda da tensão, podendo até interromper o abastecimento de energia elétrica caso não sejam tomadas as medidas preventivas. Dependendo do local da falha e das condições do sistema, o distúrbio resultante pode ser um afundamento de tensão, uma elevação de tensão ou uma interrupção do fornecimento de energia \cite{IEE95}. A seguir apresenta-se a descrição de cada um destes fenômenos.
+Tais eventos descritos, geram instabilidade ao sistema causando transtornos ao processo de produção por distorcer a forma de onda da tensão, podendo até interromper o abastecimento de energia elétrica caso não sejam tomadas as medidas preventivas. Dependendo do local da falha e das condições do sistema, o distúrbio resultante pode ser um afundamento de tensão, uma elevação de tensão ou uma interrupção do fornecimento de energia \citep{IEE95}. A seguir apresenta-se a descrição de cada um destes fenômenos.
 
 \subsubsection{Afundamento de Tensão}
 \par 
@@ -126,8 +130,7 @@ As causas típicas para os afundamentos de tensão estão associadas à faltas n
 \par
 Em \cite{OLIVE} e \cite{SIL01}, citados por \cite{DEL03}, o fenômeno de afundamento de tensão é uma subtensão de curta duração caracterizada por uma redução no valor eficaz da tensão, entre 0,1 e 0,9 pu, na frequência fundamental, com duração entre 0,5 ciclo e 1 minuto. Este tipo de distúrbio está associado, principalmente, a faltas em sistemas de transmissão e de distribuição. Mas pode também ser causado pela energização de grandes cargas, partida de grandes motores e pela corrente de energização de um transformador.
 \par
-O principal efeito destes distúrbios é o mau funcionamento dos equipamentos eletrônicos, em especial os computadores, que são alvo das preocupações de órgãos de pesquisa em \ac{QEE}. Entretanto, determinar os níveis de sensibilidade de tais equipamentos torna-se uma tarefa difícil, devido ao grande número de medições necessárias para a coleta de dados, e ainda, as dificuldades de se ter equipamentos de medição em condições reais de campo \cite{OLIVE}, citado por \cite{DEL03}.
-
+O principal efeito destes distúrbios é o mau funcionamento dos equipamentos eletrônicos, em especial os computadores, que são alvo das preocupações de órgãos de pesquisa em \ac{QEE}. Entretanto, determinar os níveis de sensibilidade de tais equipamentos torna-se uma tarefa difícil, devido ao grande número de medições necessárias para a coleta de dados, e ainda, as dificuldades de se ter equipamentos de medição em condições reais de campo \citep{OLIVE}, citado por \citep{DEL03}.
 \subsubsection{Elevação de Tensão ou Salto de Tensão}
 \par
 Elevação de tensão ou Salto de tensão são as terminologias mais utilizadas no Brasil, na literatura internacional o termo correspondente mais utilizado é \textit{voltage swel}. De acordo com \cite{FER99}, consiste no aumento da tensão ou corrente eficaz, à frequência industrial, para uma faixa entre 1,1 e 1,8 pu, ocorrendo em um intervalo de 0,5 ciclo a 1 min. A duração dos saltos de tensão classifica-os entre três categorias: instantâneos, momentâneos e temporários.
@@ -136,7 +139,7 @@ Quando há ocorrência de faltas no sistema, os saltos de tensão ocorrem na fas
 \par
 Assim como os afundamentos de tensão, as elevações de tensão estão geralmente associadas com as condições de falta no sistema, principalmente aos curtos circuitos fase-terra, visto que nestas condições as fases não defeituosas tendem a sofrer uma elevação de tensão.
 \par
-Este fenômeno pode também estar associado à saída de grandes blocos de cargas ou a energização de grandes bancos de capacitores, porém com uma incidência pequena se comparada com as sobretensões provenientes de faltas fase-terra nas redes de transmissão e distribuição \cite{DUG96}.
+Este fenômeno pode também estar associado à saída de grandes blocos de cargas ou a energização de grandes bancos de capacitores, porém com uma incidência pequena se comparada com as sobretensões provenientes de faltas fase-terra nas redes de transmissão e distribuição \citep{DUG96}.
 \par
 No trabalho de \cite{DEL03} é relatado que as elevações de tensão são caracterizadas pelas suas magnitudes (valores eficazes) e suas durações. A severidade de uma elevação de tensão durante uma condição de falta é função do local da falta, da impedância do sistema e do aterramento do mesmo. A duração da elevação está intimamente ligada aos ajustes dos dispositivos de proteção, à natureza da falta (permanente ou temporária) e à sua localização na rede elétrica.
 \par
@@ -146,11 +149,11 @@ Dentro do exposto, a preocupação principal recai sobre os equipamentos eletrô
 
 \subsubsection{Interrupção}
 \par
-Uma interrupção de curta duração ocorre quando a tensão de suprimento decresce para um valor menor que 0,1 pu por um período de tempo não superior a 1 minuto. Este tipo de interrupção pode ser causada por faltas no sistema de energia, falhas de equipamentos e mau funcionamento de sistemas de controle \cite{OLIVE}, citado por \cite{DEL03}.
+Uma interrupção de curta duração ocorre quando a tensão de suprimento decresce para um valor menor que 0,1 pu por um período de tempo não superior a 1 minuto. Este tipo de interrupção pode ser causada por faltas no sistema de energia, falhas de equipamentos e mau funcionamento de sistemas de controle \citep{OLIVE}, citado por \citep{DEL03}.
 \par
 Algumas interrupções podem ser precedidas por um afundamento de tensão quando estas são devidas a faltas no sistema supridor. O afundamento de tensão ocorre no período de tempo entre o início de uma falta e a operação do dispositivo de proteção do sistema.
 \par
-Com o crescente emprego de cargas eletrônicas, como inversores e computadores, e com as faltas em redes aéreas sendo de natureza temporária, estas são responsáveis pela saída de operação de diversos equipamentos, interrompendo o processo produtivo e causando enormes prejuízos às indústrias \cite{DEL03}.
+Com o crescente emprego de cargas eletrônicas, como inversores e computadores, e com as faltas em redes aéreas sendo de natureza temporária, estas são responsáveis pela saída de operação de diversos equipamentos, interrompendo o processo produtivo e causando enormes prejuízos às indústrias \citep{DEL03}.
 \par
 Em \cite{FER99}, uma interrupção rápida é caracterizada quando a tensão eficaz da fonte ou a corrente de carga decresce a menos que 0.1 pu, por um período de tempo entre 0,5 ciclo e 1 minuto. As interrupções rápidas são resultado de faltas no sistema, falhas em equipamentos e mau funcionamento de dispositivos de controle.
 \par
@@ -159,13 +162,13 @@ Tais interrupções quando causadas por faltas no sistema da concessionária, t�
 \subsection{Distorções da Forma de Onda e Harmônicos}
 \todo[inline,size=\small,color=yellow]{Unidas as duas subsections formando uma >}
 \par 
-A definição de \cite{OLIVE}, citado por \cite{DEL03} para uma distorção da forma de onda, é que a mesma pode ser um desvio, em regime permanente, da forma de onda puramente senoidal, na frequência fundamental, e é caracterizada principalmente pelo seu conteúdo espectral. Existem quatro principais tipos de distorções da forma de onda, descritos a seguir \cite{DUG96}.
+A definição de \cite{OLIVE}, citado por \cite{DEL03} para uma distorção da forma de onda, é que a mesma pode ser um desvio, em regime permanente, da forma de onda puramente senoidal, na frequência fundamental, e é caracterizada principalmente pelo seu conteúdo espectral. Existem quatro principais tipos de distorções da forma de onda, descritos a seguir \citep{DUG96}.
 \par
 Harmônicas são tensões ou correntes senoidais de frequências múltiplas inteiras da frequência fundamental na qual opera o sistema de energia elétrica. Estes harmônicos distorcem as formas de onda da tensão e corrente e são oriundos de equipamentos e cargas com características não lineares instalados no sistema de energia. 
 \par
 As distorções harmônicas estão em desacordo com os objetivos da qualidade de suprimento promovido por uma concessionária de energia elétrica, a qual deve fornecer aos seus consumidores uma tensão puramente senoidal, com amplitude e frequência constantes. \par
 \par
-Entretanto, o fornecimento de energia a determinados consumidores que causam deformações no sistema supridor prejudica não apenas o consumidor responsável pelo distúrbio, mas também outros conectados à mesma rede elétrica \cite{DEL03}.
+Entretanto, o fornecimento de energia a determinados consumidores que causam deformações no sistema supridor prejudica não apenas o consumidor responsável pelo distúrbio, mas também outros conectados à mesma rede elétrica \citep{DEL03}.
 \par
 De acordo com \cite{FER99}, harmônicos são correntes ou tensões senoidais de frequências múltiplas (de inteiros) da frequência que o sistema é designado a operar. Sendo esses componentes harmônicos, combinados com a tensão ou corrente fundamentais, produzindo alterações na forma de onda. 
 \par
@@ -178,7 +181,7 @@ Destacado por \cite{DUG96}, citado por \cite{FER99}, a importância da existênc
 \par
 Interharmônicos são componentes de frequência, em tensão ou corrente, que não são múltiplos inteiros da frequência fundamental do sistema supridor (50 ou 60Hz\footnote{Hertz, unidade derivada do \ac{SI}.}). Elas podem aparecer como frequências discretas ou como uma larga faixa espectral.
 \par
-Os interharmônicos podem ser encontrados em redes de diferentes classes de tensão. As suas principais fontes são conversores estáticos de potência, ciclo conversores, motores de indução e equipamentos a arco \cite{DEL03}.
+Os interharmônicos podem ser encontrados em redes de diferentes classes de tensão. As suas principais fontes são conversores estáticos de potência, ciclo conversores, motores de indução e equipamentos a arco \citep{DEL03}.
 \par
 Ruído é definido por \cite{OLIVE}, citado por \cite{DEL03}, como um sinal elétrico indesejado, contendo uma larga faixa espectral com frequências menores que 200 kHz, as quais são superpostas às tensões ou correntes de fase, ou encontradas em condutores de neutro em linhas de transmissão.
 \par
@@ -186,9 +189,9 @@ De acordo com \cite{DUG96}, os ruídos são basicamente uma distorção indeseja
 \par
 A amplitude típica é menor que 1\% da tensão fundamental, e os mesmos podem causar distúrbios em equipamentos eletrônicos, tais como microcomputadores e controladores programáveis. O problema pode ser minimizado utilizando-se filtros, transformadores isoladores e alguns condicionadores de linha.
 \par
-A presença de tensão ou corrente \ac{CC} em um sistema elétrico com \ac{CA} é denominado \emph{DC offset}. Este fenômeno pode ocorrer como resultado da operação ideal de retificadores de meia-onda \cite{OLIVE}.
+A presença de tensão ou corrente \ac{CC} em um sistema elétrico com \ac{CA} é denominado \emph{DC offset}. Este fenômeno pode ocorrer como resultado da operação ideal de retificadores de meia-onda \citep{OLIVE}.
 \par
-O nível CC em redes de corrente alternada pode levar à saturação de transformadores, resultando em perdas adicionais e redução da vida útil. Pode também causar corrosão eletrolítica dos eletrodos de aterramento e de outros conectores \cite{DEL03}.
+O nível CC em redes de corrente alternada pode levar à saturação de transformadores, resultando em perdas adicionais e redução da vida útil. Pode também causar corrosão eletrolítica dos eletrodos de aterramento e de outros conectores \citep{DEL03}.
 \subsubsection{Flutuações ou Oscilações de Tensão}\label{qeeFluOT}
 \todo[inline,size=\small,color=yellow]{A subsection  \ref{qeeFluOT} foi criada agrupando os temas Flutuações ou Oscilações de Tensão, pelo mesmo argumento apresentado em \ref{qeeIRNCC}.}
 \par
@@ -215,13 +218,13 @@ Ambos os fatores interferem diretamente na QEE sobre o ponto de vista do forneci
 
 \subsection{Variações na Frequência do Sistema Elétrico}
 \par
-Variações na frequência de um sistema elétrico são definidas como sendo desvios no valor da frequência fundamental deste sistema. No Brasil a frequência fundamental é de 60hz \cite{DUG96}. A frequência do sistema de potência está diretamente associada à velocidade de rotação dos geradores que suprem o sistema.
+Variações na frequência de um sistema elétrico são definidas como sendo desvios no valor da frequência fundamental deste sistema. No Brasil a frequência fundamental é de 60hz \citep{DUG96}. A frequência do sistema de potência está diretamente associada à velocidade de rotação dos geradores que suprem o sistema.
 \par
 Variações de frequência que ultrapassam os limites para operação normal em regime permanente podem ser causadas por faltas em sistemas de transmissão, saída de um grande bloco de carga ou pela saída de operação de uma grande fonte de geração.
 \par
 Em sistemas isolados, entretanto, como é o caso da geração própria nas indústrias, na eventualidade de um distúrbio, a magnitude e o tempo de permanência das máquinas operando fora da velocidade, resultam em desvios da frequência em proporções mais significativas.
 \par
-Na Tabela \ref{fig:tabpdistele} estão dispostos os tipos de distúrbios elétricos, classificados juntamente com suas principais causas de ocorrência e tempo de duração típica. Para o melhor entendimento das informações apresentadas na Tabela \ref{fig:tabpdistele}, consultar o Glossário.%\ref{gloss}. \cite{gloss} 
+Na Tabela \ref{fig:tabpdistele} estão dispostos os tipos de distúrbios elétricos, classificados juntamente com suas principais causas de ocorrência e tempo de duração típica. Para o melhor entendimento das informações apresentadas na Tabela \ref{fig:tabpdistele}, consultar o Glossário.
 % tabela 1
 % Obs o [!h] é para fixar a imagem exatamente neste ponto do texto
 %Logo de seguida temos a possibilidade de introduzir um conjunto de opções entre []. São elas:
@@ -231,7 +234,7 @@ Na Tabela \ref{fig:tabpdistele} estão dispostos os tipos de distúrbios elétri
 %p – Para a imagem aparecer numa página só com figuras ou tabelas.
 \begin{table}[!h]
 \begin{center}
-\caption{Principais causas dos fenômenos eletromagnéticos conforme recomendação \cite{IEE95}.}
+\caption{Principais causas dos fenômenos eletromagnéticos conforme recomendação \citep{IEE95}.}
 \includegraphics[height=15cm]{imagens/tab1_cap2.png}
 \par{\small Fonte: Adaptada pelo autor de \cite{JUN09}.}
 \label{fig:tabpdistele}
@@ -271,7 +274,7 @@ Também segundo \cite{ALV10}, afundamento de tensão é a perturbação número 
 É economicamente inviável eliminar todas as faltas do sistema elétrico, para não haver afundamentos de tensão, e em contra partida não é eficaz reduzir o número de afundamentos se o custo por essa ação for maior do que o prejuízo causado pelos mesmos.
 Às vezes, existem soluções simples a serem aplicadas como mudanças nas especificações dos equipamentos para gerar uma redução significativa no número de interrupções de equipamentos e/ou processos.
 \par
-Devido à generalidade dos parâmetros envolvidos (características do sistema elétrico, das cargas, do tipo de falta e proteção), o afundamento de tensão é um problema de análise complexa. Onde esta requer um conhecimento das características do distúrbio, informações estatísticas, probabilidade de ocorrência do afundamento, sensibilidade dos equipamentos e, informações do prejuízo causado pelo distúrbio \cite{ALV10}.
+Devido à generalidade dos parâmetros envolvidos (características do sistema elétrico, das cargas, do tipo de falta e proteção), o afundamento de tensão é um problema de análise complexa. Onde esta requer um conhecimento das características do distúrbio, informações estatísticas, probabilidade de ocorrência do afundamento, sensibilidade dos equipamentos e, informações do prejuízo causado pelo distúrbio \citep{ALV10}.
 \par
 Quanto à sensibilidade dos Equipamentos aos Afundamentos, \cite{ALV10} explicita que as cargas mais vulneráveis aos afundamentos são os equipamentos eletrônicos à base de microprocessadores, como os \ac{AVVs} e os \ac{CLPs}.
 \par

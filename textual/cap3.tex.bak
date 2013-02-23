@@ -10,7 +10,6 @@ Os métodos baseados em sistemas inteligentes utilizam dados extraídos da linha
 Já os métodos baseados em análise de sinais utilizam os transitórios de alta frequência gerados pela falta na linha para sua detecção, onde os transitórios são extraídos dos sinais de tensão ou corrente, empregando ferramentas matemáticas. 
 \par
 Aborda-se neste capitulo especialmente esses três métodos, \emph{\ac{RMS}},\emph{\ac{TF}} e \emph{\ac{TW}}, assim como conceitos sobre amostragem de dados, filtros e decomposição de sinais.
-
 \section{Amostragem de dados}
 \par
 Definido por \cite{SIL09}, na realização da maioria dos estudos estatísticos, não é possível ou conveniente levantar os dados de todos os elementos da população. Nesses casos, é estudada uma amostra proveniente da população e buscada, através da estatística indutiva, para tirar conclusões sobre a população.
@@ -34,23 +33,26 @@ Tais acontecimentos impactaram com grande relevância para a utilização destas
 \end{itemize}
 \subsection{Método baseado no cálculo do Valor \ac{RMS}}
 \par
-O valor eficaz ou RMS é uma das técnicas mais utilizadas para a detecção de eventos que afetam QEE %\cite{KAG09}
-, citado por \cite{BAC11}. Segundo \cite{THE99}, citado por \cite{JUN09}, esta técnica consiste na monitoração dos valores de tensão \ac{RMS} em tempo real do sistema com a finalidade de detectar os distúrbios. A detecção de eventos pode ser realizada através da comparação do valor \ac{RMS} da tensão com uma faixa de tolerância. 
+O valor eficaz ou RMS é uma das técnicas mais utilizadas para a detecção de eventos que afetam \ac{QEE} \citep{KAG09}
+, citado por \citep{BAC11}. Segundo \cite{THE99}, citado por \cite{JUN09}, esta técnica consiste na monitoração dos valores de tensão \ac{RMS} em tempo real do sistema com a finalidade de detectar os distúrbios. A detecção de eventos pode ser realizada através da comparação do valor \ac{RMS} da tensão com uma faixa de tolerância. 
 \par 
 O calculo do valor \ac{RMS} do sinal monitorado é realizado \emph{através de janelas de 1 ou 1/2 ciclo da componente fundamental}, essas janelas são pré-determinadas, são caracterizadas por \emph{n} amostras por \emph{m} pontos por amostranges, definindo o seu deslocamento de dados durante a amostragem. 
-\todo[color=red]{Fazer. Para maiores informações sobre RMS consultar bli em blo e blu.}
-
+\todo[inline,color=red]{Fazer. Para maiores informações sobre RMS consultar bli em blo e blu.}
 \subsection{Método baseado na aplicação da Transformada Discreta de Fourier}
-A \acl{TF} pode ser considerada como a soma de funções trigonométricas (\emph{senoidal} e\emph{ cossenoidal}) ou de exponenciais complexas harmonicamente relacionadas %\cite{KAG09}
-, citado por \cite{BAC11}.
-De acordo com \cite{SAD03}, a \emph{Série de Fourier} permite representar uma função periódica como a soma de senoides obtendo o espectro de frequência da série. A \ac{TF} nos permite estender o conceito de espectro de frequência a funções não periódicas. A transformada considera que uma função não periódica é uma função periódica com período infinito. Por tanto, a \ac{TF} é uma representação integral de uma função não periódica, análoga à representação em\emph{ Série de Fourier} de uma função periódica.
-A \acl{TF} é uma \emph{Transformada Integral}, como a \emph{Transformada de Laplace}, esta transforma uma função do domínio de tempo para o domínio de frequência. Esta transformada é muito útil em sistemas de comunicação e no uso de \ac{DSP}, situações nas quais geralmente a \emph{Transformada de Laplace} não se aplica. A \ac{TF} pode trabalhar com circuitos tanto com entradas para \emph{t < 0} quando para \emph{t > 0}, \cite{SAD03}.
-
-\todo[color=red]{Fazer. Para maiores informações sobre TF E sua familia, consultar bli em blo e blu.}
-
+\par
+A \acl{TF} pode ser considerada como a soma de funções trigonométricas (\emph{senoidal} e\emph{ cossenoidal}) ou de exponenciais complexas harmonicamente relacionadas \citep{KAG09}, citado por \citep{BAC11}.
+\par
+De acordo com \cite{SAD03}, a \ac{SF} permite representar uma função periódica como a soma de senoides obtendo o espectro de frequência da série. A \ac{TF} nos permite estender o conceito de espectro de frequência a funções não periódicas. A transformada considera que uma função não periódica é uma função periódica com período infinito. Por tanto, a \ac{TF} é uma representação integral de uma função não periódica, análoga à representação em \ac{SF} de uma função periódica.
+\par
+A \acl{TF} é uma \emph{Transformada Integral}, como a \emph{Transformada de Laplace}, esta transforma uma função do domínio de tempo para o domínio de frequência. Esta transformada é muito útil em sistemas de comunicação e no uso de \ac{DSP}, situações nas quais geralmente a \emph{Transformada de Laplace} não se aplica. A \ac{TF} pode trabalhar com circuitos tanto com entradas para \emph{t < 0} quando para \emph{t > 0}, \citep{SAD03}.
+\todo[inline,color=red]{Fazer. Para maiores informações sobre TF E sua familia, consultar bli em blo e blu.}
+\par
 Segundo \cite{OLI07}, a \ac{TF} tem suas grandes vantagens, porém possui uma grande desvantagem. Embora esta possa determinar todas as frequências presentes no sinal, sua relação com o domínio temporal é inexistente, a \ac{TF} é não fornece uma análise temporal, \emph{apenas frequencial}.
+\par
 Complementando este esclarecimento sobre a desvantagem descrita anteriormente, \cite{MEN08} esclarece que se as propriedades de um sinal não variarem muito ao longo do tempo, ou seja, se o sinal for estacionário, esta desvantagem não é muito importante. No entanto, grande parte dos sinais contêm inúmeras características transitórias ou não estacionárias e estas características podem ser a parte mais importante do sinal, então a transformada de Fourier não é apropriada à sua detecção. 
-Para superar esse problema, várias alternativas foram propostas objetivando ter uma análise, ao mesmo tempo, temporal e frequencial de sinais não estacionários. A primeira dessas alternativas foi a \ac{STFT}, também conhecida como a Transformada de Gabor \cite{OLI07}.
+\par
+Para superar esse problema, várias alternativas foram propostas objetivando ter uma análise, ao mesmo tempo, temporal e frequencial de sinais não estacionários. A primeira dessas alternativas foi a \ac{STFT}, também conhecida como a Transformada de Gabor \citep{OLI07}.
+\par 
 Explicado por \cite{OLI07}, o objetivo da STFT é introduzir um parâmetro de frequência local (local ao tempo) como se a Transformada de Fourier Local observasse o sinal através de uma curta janela (técnica de janelamento) dentro da qual o sinal permanece aproximadamente estacionário, exemplificada na Figura \ref{fig:janelamento}.
 % figura 2
 \begin{figure}[!h]
@@ -64,16 +66,15 @@ Explicado por \cite{OLI07}, o objetivo da STFT é introduzir um parâmetro de fr
 \par
 A \ac{STFT} fornece informações sobre quando e a que frequências um determinado evento ocorrente no sinal. No entanto, essa informação só pode ser obtida com determinada precisão, e essa precisão é limitada pelo tamanho da janela, causando outra desvantagem nesta técnica, cujo tamanho fixo dessa janela deslizante não pode ser alterada ao longo na análise, necessitando ser a mesma para todas as frequências. 
 \par
-Muitos sinais (especialmente no caso de detecção de distúrbios elétricos) requerem uma técnica mais flexível, onde seja possível variar o tamanho da janela para determinar com melhor precisão na base tempo ou na base frequência,\cite{MEN08}.
-
-\subsection{Método baseado na aplicação da acl{TW}}
+Muitos sinais (especialmente no caso de detecção de distúrbios elétricos) requerem uma técnica mais flexível, onde seja possível variar o tamanho da janela para determinar com melhor precisão na base tempo ou na base frequência,\citep{MEN08}.
+\subsection{Método baseado na aplicação da \acl{TW}}
 \par
 Em %\cite{KIM01} 
-e \cite{IAN09} citados por \cite{FER10}, a acl{TW} vem sendo extensivamente aplicada à análise de distúrbios elétricos. A frequente utilização da \ac{TW} se dá pela sua habilidade de destacar curtos transitórios em componentes de alta frequência e longos transitórios em componentes de baixa frequência, tal habilidade facilita a análise de impulsos e transitórios localizados mesmo na presença do componente fundamental e harmônicos de baixa ordem. 
+e \cite{IAN09} citados por \cite{FER10}, a \acl{TW} vem sendo extensivamente aplicada à análise de distúrbios elétricos. A frequente utilização da \ac{TW} se dá pela sua habilidade de destacar curtos transitórios em componentes de alta frequência e longos transitórios em componentes de baixa frequência, tal habilidade facilita a análise de impulsos e transitórios localizados mesmo na presença do componente fundamental e harmônicos de baixa ordem. 
 \par
 Explicitado por \cite{OLI07}, as \emph{Wavelets} são funções matemáticas que separam dados em suas diferentes componentes frequências e extraem cada componente com uma resolução adequada à sua escala. Elas têm vantagens em relação à análise de \textit{Fourier}, pois esta última analisa o sinal como um todo, acarretando uma representação mais pobre para sinais que contêm descontinuidades e variações bruscas.
 \par
-Segundo \cite{MEN08}, \cite{OLI07} e \cite{FER10}, a \ac{TW} também faz uso de uma janela deslizante que se adapta automaticamente com regiões de tamanhos variáveis, de acordo com as frequências presentes no sinal em análise, gerando uma resolução apropriada em componentes de altas e baixas frequências. A acl{TW} possui suas variantes contínua (TWC) e discreta (TWD) para maiores detalhes sobre as definições matemáticas das TWC e TWD consulte o Anexo G em \cite{FER10} ou no capítulo dois e três, respectivamente, em \cite{OLI07}. 
+Segundo \cite{MEN08}, \cite{OLI07} e \cite{FER10}, a \ac{TW} também faz uso de uma janela deslizante que se adapta automaticamente com regiões de tamanhos variáveis, de acordo com as frequências presentes no sinal em análise, gerando uma resolução apropriada em componentes de altas e baixas frequências. A acl{TW} possui suas variantes contínua (TWC) e discreta (TWD) para maiores detalhes sobre as definições matemáticas das TWC e TWD consulte o Anexo G em \cite{FER10} ou no capítulo dois e três, respectivamente, em \citep{OLI07}. 
 \par
 No trabalho de \cite{MEN08}, é feita uma comparação com a \textit{base-tempo}, \textit{base-frequência} e com a \ac{STFT}, explicitas na Figura \ref{fig:analisis}. É possível observar que as \textit{Wavelets} não utilizam uma região \emph{tempo-frequência}, mas sim uma região \emph{tempo-escala}.
 % figura 3
@@ -104,7 +105,7 @@ Decomposição do sinal, conforme \cite{JUN09}, citado por \cite{BAC11}, é uma 
 \end{center}
 \end{figure}
 \par
-A Decomposição de nível múltiplo é um processo de decomposição que pode ser \emph{iterado}, com sucessivas aproximações a serem decompostas, de forma que um sinal seja dividido em muitas componentes de baixa resolução. Isto é chamado de \emph{árvore de decomposição de Wavelet} \cite{MEN08}, demonstrada na Figura \ref{fig:decomp}.
+A Decomposição de nível múltiplo é um processo de decomposição que pode ser \emph{iterado}, com sucessivas aproximações a serem decompostas, de forma que um sinal seja dividido em muitas componentes de baixa resolução. Isto é chamado de \emph{árvore de decomposição de Wavelet} \citep{MEN08}, demonstrada na Figura \ref{fig:decomp}.
 % figura 5
 \begin{figure}[!h]
 \begin{center}
